@@ -1,3 +1,4 @@
+# EXPLAIN
 # Query Optimization Report
 
 ## Executive Summary
