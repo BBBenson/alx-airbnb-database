@@ -39,6 +39,14 @@ CREATE INDEX idx_payment_booking_id ON Payment(booking_id);
 CREATE INDEX idx_payment_method ON Payment(payment_method);
 CREATE INDEX idx_payment_date ON Payment(payment_date);
 
+
+-- EXPLAIN ANALYZE
+EXPLAIN ANALYZE SELECT * 
+FROM Booking 
+WHERE start_date >= '2024-01-01' 
+  AND end_date <= '2024-12-31';
+
+
 -- Measure the query performance before and after adding indexes using EXPLAIN or ANALYZE.
 -- Performance testing queries
 -- Before creating indexes, run EXPLAIN on these queries:
