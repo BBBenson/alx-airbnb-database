@@ -1,4 +1,4 @@
-# EXPLAIN
+# Analyze the query’s performance using EXPLAIN and identify any inefficiencies.
 # Query Optimization Report
 
 ## Executive Summary
