@@ -1,3 +1,4 @@
+-- Analyze the query’s performance using EXPLAIN and identify any inefficiencies.
 -- Task 4: Optimize Complex Queries
 
 -- Initial complex query (BEFORE optimization)
