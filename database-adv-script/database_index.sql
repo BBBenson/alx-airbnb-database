@@ -38,7 +38,7 @@ CREATE INDEX idx_payment_booking_id ON Payment(booking_id);
 CREATE INDEX idx_payment_method ON Payment(payment_method);
 CREATE INDEX idx_payment_date ON Payment(payment_date);
 
--- EXPLAIN or ANALYZE
+-- Measure the query performance before and after adding indexes using EXPLAIN or ANALYZE.
 -- Performance testing queries
 -- Before creating indexes, run EXPLAIN on these queries:
 
