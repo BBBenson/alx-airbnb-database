@@ -1,4 +1,5 @@
 -- Task 3: Implement Indexes for Optimization
+-- Measure the query performance before and after adding indexes using EXPLAIN or ANALYZE.
 
 -- Indexes for User table
 CREATE INDEX idx_user_email ON User(email);
